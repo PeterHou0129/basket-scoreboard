@@ -1,11 +1,10 @@
-
-
+let count1 = 0
+let count2 = 0
 
 let countHome = document.getElementById("count-home")
 let countGuest = document.getElementById("count-guest")
 
 function add1(){
-    let count1 = 0
     count1 += 1
     countHome.textContent = count1
 }
@@ -21,7 +20,6 @@ function add3(){
 }
 
 function addg1(){
-    let count2 = 0
     count2 += 1
     countGuest.textContent = count2
 }
